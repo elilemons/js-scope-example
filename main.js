@@ -16,11 +16,12 @@ function showFunctionVariables() {
     logAndDisplay(`localY: ${localY}`);
 }
 
-// // Note that we cannot access the local variables here, so this will throw an error:
-// // logAndDisplay(`localX: ${localX}`);
-// // logAndDisplay(`localY: ${localY}`);
-
 showFunctionVariables();
+
+// // Note that we cannot access the local variables here, so this will throw an error:
+// logAndDisplay(`localX: ${localX}`);
+// logAndDisplay(`localY: ${localY}`);
+
 
 // // Ok, let's do this again but with stuff
 // // Global variables
